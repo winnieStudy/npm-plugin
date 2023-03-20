@@ -9,6 +9,9 @@
     "package": "vue-cli-service build --target lib ./src/package/index.js --name pig-ui --dist pig-ui"
   },
   "dependencies": {
+    "@zhenwf/test": "^1.0.0",
+    "@zhenwf/test1": "^1.0.0",
+    "@zhenwf/test2": "^1.0.0",
     "core-js": "^3.8.3",
     "pig-ui-wf": "^1.0.1",
     "pig-ui-wf1": "^1.0.1",

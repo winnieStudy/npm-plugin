@@ -3,8 +3,8 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
-import pigUi from 'zhen-test3'
-import 'zhen-test3/pig-ui.css'
+import pigUi from '@zhenwf/test2'
+import '@zhenwf/test2/pig-ui.css'
 
 Vue.config.productionTip = false
 Vue.use(pigUi)
