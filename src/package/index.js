@@ -6,6 +6,7 @@ import {isValidPhone} from './isValidPhone'  //校验手机号
 import {debounce} from './debounce'  //防抖
 import {throttle} from './throttle'  //节流
 import {deepFreeze} from './deepFreeze'
+import {cpText} from './copyText'  //复制文本
 
 const coms = [pigButton]   //将来如果有其他组件是可以写到这个数组中的
 
@@ -23,5 +24,6 @@ export default {
   debounce,
   throttle,
   isValidPhone,
-  deepFreeze
+  deepFreeze,
+  cpText
 }
